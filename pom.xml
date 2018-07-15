@@ -6,10 +6,15 @@
 	<groupId>com.example</groupId>
 	<artifactId>hiberante-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 
 	<name>hiberante-example</name>
 	<description>Demo project for Spring Boot</description>
+
+	<modules>
+		<module>redis</module>
+		<module>memcached</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
