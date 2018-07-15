@@ -1,4 +1,4 @@
-package com.example.hiberanteexample;
+package com.hongghe.hiberanteexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
